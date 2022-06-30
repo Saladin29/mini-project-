@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <math.h>
-//Functions
 void login();
 void mainMenu();
 void checkBalance(float balance);
@@ -10,14 +9,12 @@ float moneyDeposit(float balance);
 float moneyWithdraw(float balance);
 void menuExit();
 void errorMessage();
-//Main Code
 int main() {
     //Local Declarations
     int option;
     float balance = 15000.00;
     int choose;
     bool again = true;
-    // insert code here...
     while (again) {
     mainMenu();
     printf("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n");
@@ -56,7 +53,7 @@ int main() {
         }
 }
     return 0;
-}//main code
+}
 //Functions
 void mainMenu() {
     printf("******************Hello!*******************\n");
